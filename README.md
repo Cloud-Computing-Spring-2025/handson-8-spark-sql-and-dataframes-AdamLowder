@@ -1,5 +1,12 @@
 # handson-08-sparkSQL-dataframes-social-media-sentiment-analysis
 
+In this assignment we are using Spark SQL queries to sort through social media datasets to find trends on users.
+Task 1 - For task one we can see the hashtag trends by findingg their frequencies. For this we split the hashtags column into individual hashtags and count the frequency of each hashtag before we sort by descending.
+Task 2 - For task 2 we want to finnd the engagement for each age bracket. We do this by grouping each user by age before calculating average likes and retweets by age group.
+Task 3 - For task 3 we want to get the average likes and retweets for each sentiment range. For this we first categorize each post by sentiment score before calculating the average likes and retweets for each group.
+Task 4 - For the fourth task we want to find the top 5 users with the highest reach, or impact. We first sort by verified users before calculating their total "reach" and returning the top 5 users.
+
+
 ## **Prerequisites**
 
 Before starting the assignment, ensure you have the following software installed and properly configured on your machine:
